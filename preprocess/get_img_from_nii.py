@@ -28,7 +28,7 @@ for i in range(12):
 
 print('Done!')
 
-# Get Img from data for training
+# Get Img from data for test
 test_data = sitk.ReadImage(test_data_path)
 test_mask = sitk.ReadImage(test_data_mask_path)
 img = sitk.GetArrayFromImage(test_data)
